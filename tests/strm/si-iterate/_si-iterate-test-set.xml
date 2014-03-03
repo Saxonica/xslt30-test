@@ -167,6 +167,7 @@
    <test-case name="si-iterate-095">
       <description>within a streaming template, use xsl:iterate to process the subtree</description>
       <created by="Michael Kay" on="2012-11-07"/>
+      <modified by="Michael Kay" on="2014-05-08" change="conform to current streamability rules"/>
       <test>
          <stylesheet file="si-iterate-095.xsl"/>
          <initial-template name="main"/>
@@ -184,6 +185,7 @@
    <test-case name="si-iterate-096">
       <description>within a streaming template, use xsl:iterate and xsl:break to process the subtree</description>
       <created by="Michael Kay" on="2012-11-07"/>
+      <modified by="Michael Kay" on="2014-05-08" change="conform to current streamability rules"/>
       <test>
          <stylesheet file="si-iterate-096.xsl"/>
          <initial-template name="main"/>
@@ -201,6 +203,7 @@
    <test-case name="si-iterate-097">
       <description>within xsl:stream, use xsl:iterate and xsl:break to process the subtree</description>
       <created by="Michael Kay" on="2013-12-17"/>
+      <modified by="Michael Kay" on="2014-05-08" change="conform to current streamability rules"/>
       <test>
          <stylesheet file="si-iterate-097.xsl"/>
          <initial-template name="main"/>
@@ -214,10 +217,25 @@
          </all-of>
       </result>
    </test-case>
+   
+   <test-case name="si-iterate-098">
+      <description>within xsl:stream, use xsl:iterate over descendants</description>
+      <created by="Michael Kay" on="2014-02-08"/>
+      <modified by="Michael Kay" on="2014-05-08" change="conform to current streamability rules"/>
+      <test>
+         <stylesheet file="si-iterate-098.xsl"/>
+         <initial-template name="main"/>
+      </test>
+      <result>
+         <assert-xml><![CDATA[<out><n>Property</n><n>Property</n><n>Property</n><n>Property</n><n>Property</n></out>]]></assert-xml>
+      </result>
+   </test-case>
 
    <test-case name="si-iterate-131">
       <description>streaming xsl:iterate with a local variable</description>
       <created by="Michael Kay" on="2012-11-07"/>
+      <modified by="Michael Kay" on="2014-01-31" change="reorder xsl:on-completion, see bug 24179"/>
+      <modified by="Michael Kay" on="2014-05-08" change="conform to current streamability rules"/>
       <environment ref="citygml"/>
       <test>
          <stylesheet file="si-iterate-131.xsl"/>
@@ -230,6 +248,8 @@
    <test-case name="si-iterate-132">
       <description>streaming xsl:iterate with a reference to "." in the with-param</description>
       <created by="Michael Kay" on="2012-11-07"/>
+      <modified by="Michael Kay" on="2014-01-31" change="reorder xsl:on-completion, see bug 24179"/>
+      <modified by="Michael Kay" on="2014-05-08" change="conform to current streamability rules"/>
       <environment ref="citygml"/>
       <test>
          <stylesheet file="si-iterate-132.xsl"/>
@@ -242,6 +262,8 @@
    <test-case name="si-iterate-133">
       <description>streaming xsl:iterate with a downward navigation to child nodes</description>
       <created by="Michael Kay" on="2012-11-07"/>
+      <modified by="Michael Kay" on="2014-01-31" change="reorder xsl:on-completion, see bug 24179"/>
+      <modified by="Michael Kay" on="2014-05-08" change="conform to current streamability rules"/>
       <environment ref="citygml"/>
       <test>
          <stylesheet file="si-iterate-133.xsl"/>
@@ -250,12 +272,11 @@
          <assert-xml><![CDATA[<result><polygons>2849</polygons><points>4070</points></result>]]></assert-xml>
       </result>
    </test-case>
-   
-
 
    <test-case name="si-iterate-806">
       <description>Use xsl:iterate within xsl:stream, //a/b is not guaranteed streamable in the spec, but streamable in Saxon</description>
       <created by="Michael Kay" on="2012-12-04"/>
+      <modified by="Michael Kay" on="2014-05-08" change="conform to current streamability rules"/>
       <test>
          <stylesheet file="si-iterate-806.xsl"/>
          <initial-template name="main"/>

@@ -19,21 +19,19 @@
      <out>
       <xsl:for-each-group select="transaction"
          group-adjacent="year-from-date(xs:date(@date)), format-date(xs:date(@date), '[W]')"
-         composite="yes"
-         bind-group="g"
-         bind-grouping-key="k">
-         <batch year="{$k[1]}" week="{$k[2]}">
-            <xsl:iterate select="$g">
+         composite="yes">
+         <batch year="{current-grouping-key()[1]}" week="{current-grouping-key()[2]}">
+            <xsl:iterate select="current-group()">
               <xsl:param name="min" select="+1000000000"/>
               <xsl:param name="max" select="-1000000000"/>
-              <xsl:next-iteration>
-                <xsl:with-param name="min" select="min(($min, xs:decimal(@value)))"/>
-                <xsl:with-param name="max" select="max(($max, xs:decimal(@value)))"/>
-              </xsl:next-iteration>
               <xsl:on-completion>
                 <min><xsl:value-of select="$min"/></min>
                 <max><xsl:value-of select="$max"/></max>
               </xsl:on-completion>
+              <xsl:next-iteration>
+                <xsl:with-param name="min" select="min(($min, xs:decimal(@value)))"/>
+                <xsl:with-param name="max" select="max(($max, xs:decimal(@value)))"/>
+              </xsl:next-iteration>             
             </xsl:iterate>
          </batch>
       </xsl:for-each-group> 

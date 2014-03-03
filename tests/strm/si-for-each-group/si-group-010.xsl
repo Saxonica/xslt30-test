@@ -18,18 +18,15 @@
   <xsl:template match="account" mode="s">
      <out>
       <xsl:for-each-group select="transaction"
-         group-adjacent="year-from-date(xs:date(@date))"
-         composite="no"
-         bind-group="g"
-         bind-grouping-key="k">
-         <batch year="{$k}">
-           <xsl:for-each-group select="$g" group-adjacent="format-date(xs:date(@date), '[W]')" 
-             bind-group="h" bind-grouping-key="l">
-             <week nr="{$l}">
-                <xsl:copy-of select="$h"/>
-             </week>
+         group-adjacent="format-date(xs:date(@date), '[W]')"
+         composite="no">
+         <week nr="{current-grouping-key()}">
+           <xsl:for-each-group select="current-group()" group-adjacent="xs:date(@date)">
+             <day date="{current-grouping-key()}">
+                <xsl:copy-of select="current-group()"/>
+             </day>
            </xsl:for-each-group>
-         </batch>
+         </week>
       </xsl:for-each-group> 
     </out>
   </xsl:template>   
