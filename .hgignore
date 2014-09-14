@@ -1,0 +1,9 @@
+.DS_Store
+syntax: regexp
+.*_assessments.*
+syntax: glob
+*.orig
+admin/*output*.html
+admin/*output*.xml
+my tests/*
+*.~backup
