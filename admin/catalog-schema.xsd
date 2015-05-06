@@ -762,6 +762,7 @@
                                 <xs:enumeration value="xquery_invocation"/>
                                 <xs:enumeration value="XML_1.1"/>
                                 <xs:enumeration value="XSD_1.1"/>
+                                <xs:enumeration value="xsl-stylesheet-processing-instruction"/>
                             </xs:restriction>
                         </xs:simpleType>
                     </xs:attribute>
@@ -842,6 +843,28 @@
                                 <xs:enumeration value="en"/>
                                 <xs:enumeration value="de"/>
                                 <xs:enumeration value="fr"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
+                </xs:restriction>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="ordinal-scheme-name" substitutionGroup="dependency">
+        <xs:annotation>
+            <xs:documentation>
+                <p>Indicates a convention used for the value of the @ordinal attribute in xsl:number.</p>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:restriction base="dependencyType">
+                    <xs:attribute name="value">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="CLDR"/>
+                                <xs:enumeration value="inflection"/>
                             </xs:restriction>
                         </xs:simpleType>
                     </xs:attribute>

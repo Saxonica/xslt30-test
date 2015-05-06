@@ -128,6 +128,7 @@
       <created by="Michael Kay" on="2012-11-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
       <modified by="Debbie Lockett" on="2014-08-14" change="use streamable='0'"/>
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-002"/>
       <test>
          <stylesheet file="accumulator-005.xsl"/>
@@ -147,6 +148,7 @@
       <created by="Michael Kay" on="2012-11-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
       <modified by="Debbie Lockett" on="2014-08-14" change="use streamable='1'"/>
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-002s"/>
       <dependencies>
          <feature value="streaming"/>
@@ -168,6 +170,7 @@
       <keywords>xsl:mode on-no-match-attribute shallow-skip multiple-accumulators fn:accumulator-after applies-to-attribute</keywords>
       <created by="Michael Kay" on="2012-11-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-004"/>
       <test>
          <stylesheet file="accumulator-007.xsl"/>
@@ -183,6 +186,7 @@
       <keywords>xsl:mode on-no-match-attribute shallow-skip multiple-accumulators fn:accumulator-after streamable applies-to-attribute</keywords>
       <created by="Michael Kay" on="2012-11-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-004s"/>
       <dependencies>
          <feature value="streaming"/>
@@ -201,6 +205,7 @@
       <keywords>xsl:mode on-no-match-attribute deep-skip multiple-accumulators fn:accumulator-after streamable XTDE3420</keywords>
       <created by="Michael Kay" on="2012-11-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-004s"/>
       <dependencies>
          <feature value="streaming"/>
@@ -218,8 +223,8 @@
       <keywords>xsl:mode on-no-match-attribute shallow-copy fn:accumulator-before</keywords>
       <created by="Michael Kay" on="2012-11-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-005"/>
-      <dependencies/>
       <test>
          <stylesheet file="accumulator-010.xsl"/>
          <param name="streamable" static="yes" select="'no'"/>
@@ -240,6 +245,7 @@
       <keywords>xsl:mode on-no-match-attribute streamable shallow-copy streamable fn:accumulator-before</keywords>
       <created by="Michael Kay" on="2012-11-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-005s"/>
       <dependencies>
          <feature value="streaming"/>
@@ -264,8 +270,8 @@
       <keywords>xsl:mode on-no-match-attribute shallow-copy TextTest fn:accumulator-after</keywords>
       <created by="Michael Kay" on="2013-09-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-005"/>
-      <dependencies/>
       <test>
          <stylesheet file="accumulator-012.xsl"/>
          <param name="streamable" static="yes" select="'no'"/>
@@ -286,6 +292,7 @@
       <keywords>xsl:mode on-no-match-attribute shallow-copy TextTest fn:accumulator-after streamable</keywords>
       <created by="Michael Kay" on="2013-09-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-005s"/>
       <dependencies>
          <feature value="streaming"/>
@@ -310,6 +317,7 @@
       <keywords>xsl:mode on-no-match-attribute shallow-skip fn:accumulator-before $value</keywords>
       <created by="Michael Kay" on="2013-11-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-001"/>
       <test>
          <stylesheet file="accumulator-014.xsl"/>
@@ -324,6 +332,7 @@
       <keywords>xsl:mode streamable post-descent non-streamable _WRONG:illegal-accumulator-streaming-non-streaming</keywords>
       <created by="Michael Kay" on="2013-12-20"/>
       <modified by="Michael Kay" on="2014-07-03" change="make streamable, define expected result"/>
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-015s"/>
       <dependencies>
          <feature value="streaming"/>
@@ -343,6 +352,7 @@
       </description>
       <created by="Michael Kay" on="2014-07-04"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-004s"/>
       <dependencies>
          <feature value="streaming"/>
@@ -361,6 +371,7 @@
       <description>Namespace-qualified accumulator names</description>
       <created by="Michael Kay" on="2014-07-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-001"/>
       <test>
          <stylesheet file="accumulator-020.xsl"/>
@@ -376,6 +387,7 @@
       <description>Namespace-qualified accumulator names</description>
       <created by="Michael Kay" on="2014-07-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-001"/>
       <test>
          <stylesheet file="accumulator-020.xsl"/>
@@ -391,6 +403,7 @@
       <description>Namespace-qualified accumulator names: error, duplicate names</description>
       <created by="Michael Kay" on="2014-07-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-001"/>
       <test>
          <stylesheet file="accumulator-020.xsl"/>
@@ -406,6 +419,8 @@
       <description>Import precedence applied to accumulators</description>
       <created by="Michael Kay" on="2014-07-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
+      <modified by="Michael Kay" on="2015-04-29" change="Revert 023a to xsl:stylesheet, you can't do xsl:import on a package"/>
       <environment ref="accumulator-001"/>
       <test>
          <stylesheet file="accumulator-023.xsl"/>
@@ -419,6 +434,7 @@
       <description>An accumulator must have at least one rule</description>
       <created by="Michael Kay" on="2014-07-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-001"/>
       <test>
          <stylesheet file="accumulator-024.xsl"/>
@@ -432,6 +448,7 @@
       <description>Initial value is mandatory</description>
       <created by="Michael Kay" on="2014-07-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-001"/>
       <test>
          <stylesheet file="accumulator-025.xsl"/>
@@ -445,6 +462,7 @@
       <description>Rules matching attribute nodes are legal but ignored</description>
       <created by="Michael Kay" on="2014-07-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-001"/>
       <test>
          <stylesheet file="accumulator-026.xsl"/>
@@ -458,6 +476,7 @@
       <description>Duplicate accumulator name is OK provided there's another with higher precedence</description>
       <created by="Michael Kay" on="2014-07-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-001"/>
       <test>
          <stylesheet file="accumulator-027.xsl"/>
@@ -471,6 +490,7 @@
       <description>Pattern declared streamable, but accumulator-rule/@match is not motionless</description>
       <created by="Michael Kay" on="2014-07-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-004s"/>
       <dependencies>
          <feature value="streaming"/>
@@ -487,6 +507,7 @@
       <description>Pattern declared streamable, but accumulator-rule/@select is not motionless</description>
       <created by="Michael Kay" on="2014-07-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-004s"/>
       <dependencies>
          <feature value="streaming"/>
@@ -503,6 +524,7 @@
       <description>Accumulator has circular dependency on global variable</description>
       <created by="Michael Kay" on="2014-07-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <dependencies>
          <feature value="streaming"/>
       </dependencies>
@@ -519,6 +541,7 @@
       <description>Use an accumulator within a global variable (non-streaming)</description>
       <created by="Michael Kay" on="2014-07-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <dependencies>
          <feature value="streaming"/>
       </dependencies>
@@ -536,6 +559,7 @@
       <description>Use an accumulator within a global variable (streaming)</description>
       <created by="Michael Kay" on="2014-07-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <dependencies>
          <feature value="streaming"/>
       </dependencies>
@@ -553,6 +577,7 @@
       <description>Accumulator @select uses global variable</description>
       <created by="Michael Kay" on="2014-07-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment>
          <source role="." file="accumulator-001.xml" streaming="true"/>
    	  </environment>
@@ -571,6 +596,7 @@
       <description>Accumulator patterns use local and global variables</description>
       <created by="Michael Kay" on="2014-07-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment>
          <source role="." file="accumulator-001.xml" streaming="true"/>
    	  </environment>
@@ -587,6 +613,7 @@
       <description>Accumulator patterns use local and global variables (streaming)</description>
       <created by="Michael Kay" on="2014-07-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment>
          <source role="." file="accumulator-001.xml" streaming="true"/>
    	  </environment>
@@ -606,6 +633,7 @@
       <description>Local variables in initial-value and select expressions</description>
       <created by="Michael Kay" on="2014-07-07"/>
       <modified by="Michael Kay" on="2014-08-01" change="Backlog (by AB), bug#26330 rename @new-value to @select" />
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment>
          <source role="." file="accumulator-001.xml" streaming="true"/>
    	  </environment>
@@ -624,6 +652,7 @@
       <description>Sequence constructor in accumulator rule</description>
       <keywords>xsl:mode streamable post-descent non-streamable</keywords>
       <created by="Michael Kay" on="2014-08-19"/>
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-015s"/>
       <dependencies>
          <feature value="streaming"/>
@@ -644,6 +673,7 @@
       <description>Sequence constructor in accumulator rule</description>
       <keywords>xsl:mode streamable post-descent</keywords>
       <created by="Michael Kay" on="2014-08-02"/>
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-015s"/>
       <dependencies>
          <feature value="streaming"/>
@@ -664,6 +694,7 @@
       <description>Basic test of accumulator functions with streamable="No" (not allowed)</description>
       <keywords>xsl:mode on-no-match-attribute shallow-skip fn:accumulator-before ElementTest</keywords>
       <created by="Debbie Lockett" on="2014-08-14"/>
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-001"/>
       <test>
          <stylesheet file="accumulator-037.xsl"/>
@@ -679,6 +710,7 @@
       <keywords>fn:accumulator-after</keywords>
       <created by="Michael Kay" on="2014-11-19"/>
       <modified by="Michael Kay" on="2015-01-23" change="make it do what it says: fail with a type error"/>
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <test>
          <stylesheet file="accumulator-038.xsl"/>
          <initial-template name="main"/>
@@ -692,6 +724,7 @@
       <description>Local variable in initial-value/new-value of xsl:accumulator</description>
       <keywords>fn:accumulator-after</keywords>
       <created by="Michael Kay" on="2014-11-19"/>
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <test>
          <stylesheet file="accumulator-039.xsl"/>
          <initial-template name="main"/>
@@ -708,6 +741,7 @@
       <description>Accumulator function called within initializaion of inlineable Local variable (from Martin Honnen)</description>
       <keywords>fn:accumulator-after</keywords>
       <created by="Michael Kay" on="2015-01-26"/>
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment>
         <source role=".">
            <content><![CDATA[<html lang="en"><head><title>Test 1</title></head><body><h1>Test 1</h1><p>This is test 1.</p></body></html>]]></content>
@@ -725,6 +759,7 @@
       <description>Keep a Word Count</description>
       <keywords>xsl:accumulator</keywords>
       <created by="Abel Braaksma / Eugene" on="2015-01-23"/>
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment>
         <source role=".">
            <content><![CDATA[<html lang="en"><head><title>Test 1</title></head><body><h1>Test 1</h1><p>This is test 1.</p></body></html>]]></content>
@@ -742,6 +777,7 @@
       <description>Output Hierarchic Section Numbers</description>
       <keywords>xsl:accumulator</keywords>
       <created by="Abel Braaksma / Eugene" on="2015-01-23"/>
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-042"/>
       <test>
          <stylesheet file="accumulator-042.xsl"/>
@@ -756,6 +792,7 @@
       <keywords>xsl:accumulator</keywords>
       <created by="Abel Braaksma / Eugene" on="2015-01-26"/>
       <modified by="Michael Kay" on="2015-03-23" change="keys are untypedAtomic; sort results into predictable order"/> 
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-043"/>
       <test>
          <stylesheet file="accumulator-043.xsl"/>
@@ -777,6 +814,7 @@
       <created by="Abel Braaksma / Eugene" on="2015-01-23"/>
       <modified by="Michael Kay" on="2015-03-23" change="make select expression streamable"/>
       <modified by="Abel Braaksma" on="2015-03-23" change="Fix bug 28318"/>
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-044s"/>
       <dependencies>
          <feature value="streaming"/>
@@ -794,6 +832,7 @@
       <keywords>xsl:accumulator fn:accumulator-before</keywords>
       <created by="Abel Braaksma / Eugene" on="2015-01-23"/>
       <modified by="Abel Braaksma" on="2015-03-23" change="Fix bug 28318"/>
+      <modified by="Abel Braaksma" on="2015-04-06" change="Bug 28410, change xsl:stylesheet to xsl:package (no version or name, not required)"/>
       <environment ref="accumulator-045s"/>
       <dependencies>
          <feature value="streaming"/>
@@ -805,4 +844,133 @@
      	   <assert>empty(/*:html/*:body/*:div[@class='heading-1']/text())</assert>
       </result>
    </test-case>
+   
+   <test-case name="accumulator-046">
+      <description>Accumulator values are copied by copy-of()</description>
+      <created by="Michael Kay" on="2015-04-24"/>
+      <environment ref="accumulator-001"/>
+      <test>
+         <stylesheet file="accumulator-046.xsl"/>
+         <param name="streamable" static="yes" select="'no'"/>
+      </test>
+      <result>
+         <assert-xml><![CDATA[<figures><p>Figure 3: a third diagram</p><p>Figure 4: a fourth diagram</p></figures>]]></assert-xml>
+      </result>
+   </test-case>
+
+   <test-case name="accumulator-046s">
+      <description>Accumulator values are copied by copy-of() - streaming</description>
+      <created by="Michael Kay" on="2015-04-24"/>
+      <environment>
+         <source role="." file="accumulator-001.xml" streaming="true"/>
+   	  </environment>
+      <dependencies>
+         <feature value="streaming"/>
+      </dependencies>
+      <test>
+         <stylesheet file="accumulator-046.xsl"/>
+         <param name="streamable" static="yes" select="'yes'"/>
+      </test>
+      <result>
+         <assert-xml><![CDATA[<figures><p>Figure 3: a third diagram</p><p>Figure 4: a fourth diagram</p></figures>]]></assert-xml>
+      </result>
+   </test-case>
+   
+   <test-case name="accumulator-047">
+      <description>Accumulator values are copied by snapshot()</description>
+      <created by="Michael Kay" on="2015-04-24"/>
+      <environment ref="accumulator-001"/>
+      <test>
+         <stylesheet file="accumulator-047.xsl"/>
+         <param name="streamable" static="yes" select="'no'"/>
+      </test>
+      <result>
+         <assert-xml><![CDATA[<figures><p>Figure 3: a third diagram</p><p>Figure 4: a fourth diagram</p></figures>]]></assert-xml>
+      </result>
+   </test-case>
+
+   <test-case name="accumulator-047s">
+      <description>Accumulator values are copied by snapshot() - streaming</description>
+      <created by="Michael Kay" on="2015-04-24"/>
+      <environment>
+         <source role="." file="accumulator-001.xml" streaming="true"/>
+   	  </environment>
+      <dependencies>
+         <feature value="streaming"/>
+      </dependencies>
+      <test>
+         <stylesheet file="accumulator-047.xsl"/>
+         <param name="streamable" static="yes" select="'yes'"/>
+      </test>
+      <result>
+         <assert-xml><![CDATA[<figures><p>Figure 3: a third diagram</p><p>Figure 4: a fourth diagram</p></figures>]]></assert-xml>
+      </result>
+   </test-case>
+   
+   <test-case name="accumulator-048">
+      <description>Accumulator values are copied by xsl:copy-of with copy-accumulators="yes"</description>
+      <created by="Michael Kay" on="2015-04-24"/>
+      <environment ref="accumulator-001"/>
+      <test>
+         <stylesheet file="accumulator-048.xsl"/>
+         <param name="streamable" static="yes" select="'no'"/>
+         <param name="copyAcc" static="yes" select="'yes'"/>
+      </test>
+      <result>
+         <assert-xml><![CDATA[<figures><p>Figure 3: a third diagram</p><p>Figure 4: a fourth diagram</p></figures>]]></assert-xml>
+      </result>
+   </test-case>
+
+   <test-case name="accumulator-048s">
+      <description>Accumulator values are copied by xsl:copy-of with copy-accumulators="yes" - streaming</description>
+      <created by="Michael Kay" on="2015-04-24"/>
+      <environment>
+         <source role="." file="accumulator-001.xml" streaming="true"/>
+   	  </environment>
+      <dependencies>
+         <feature value="streaming"/>
+      </dependencies>
+      <test>
+         <stylesheet file="accumulator-048.xsl"/>
+         <param name="streamable" static="yes" select="'yes'"/>
+         <param name="copyAcc" static="yes" select="'yes'"/>
+      </test>
+      <result>
+         <assert-xml><![CDATA[<figures><p>Figure 3: a third diagram</p><p>Figure 4: a fourth diagram</p></figures>]]></assert-xml>
+      </result>
+   </test-case>
+   
+   <test-case name="accumulator-049">
+      <description>Accumulator values are NOT copied by xsl:copy-of with copy-accumulators="no"</description>
+      <created by="Michael Kay" on="2015-04-24"/>
+      <environment ref="accumulator-001"/>
+      <test>
+         <stylesheet file="accumulator-048.xsl"/>
+         <param name="streamable" static="yes" select="'no'"/>
+         <param name="copyAcc" static="yes" select="'no'"/>
+      </test>
+      <result>
+         <assert-xml><![CDATA[<figures><p>Figure 1: a third diagram</p><p>Figure 2: a fourth diagram</p></figures>]]></assert-xml>
+      </result>
+   </test-case>
+
+   <test-case name="accumulator-049s">
+      <description>Accumulator values are NOT copied by xsl:copy-of with copy-accumulators="yes" - streaming</description>
+      <created by="Michael Kay" on="2015-04-24"/>
+      <environment>
+         <source role="." file="accumulator-001.xml" streaming="true"/>
+   	  </environment>
+      <dependencies>
+         <feature value="streaming"/>
+      </dependencies>
+      <test>
+         <stylesheet file="accumulator-048.xsl"/>
+         <param name="streamable" static="yes" select="'yes'"/>
+         <param name="copyAcc" static="yes" select="'no'"/>
+      </test>
+      <result>
+         <assert-xml><![CDATA[<figures><p>Figure 1: a third diagram</p><p>Figure 2: a fourth diagram</p></figures>]]></assert-xml>
+      </result>
+   </test-case>
+
 </test-set>
