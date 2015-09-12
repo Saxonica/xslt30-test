@@ -28,7 +28,7 @@
                   <xsl:variable name="g" select="current-merge-group()"/>
                   <xsl:if test="count($g) ge 2">
                     <city name="{current-merge-key()}" lon="{$g/self::city/coord/lon}" lat="{$g/self::city/coord/lat}" 
-                          temp="{$g/root()//temp}" wind="{$g/root()//wind/speed}"/>
+                          temp="{$g/ancestor::record[1]//temp}" wind="{$g/ancestor::record[1]//wind/speed}"/>
                   </xsl:if>        
                 </xsl:merge-action>
             </xsl:merge>            
