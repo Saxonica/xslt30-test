@@ -1,0 +1,21 @@
+.DS_Store
+syntax: regexp
+.*_assessments.*
+syntax: glob
+*.orig
+admin/*output*.html
+admin/*output*.xml
+my tests/*
+*.~backup
+**/my_tests
+_DISABLE_HG.bat
+_ENABLE_HG.bat
+.project
+results/*
+XSLT30Tests.iml
+.com.apple.timemachine.supported
+exselt/*
+xgespräch.xml
+xgespraÌˆch.xml
+tests/sandp/tempresult.xml
+tests/insn/sort/sort-0001.xsl
