@@ -8,16 +8,16 @@
     <xsl:mode streamable="yes" />
     
     <xsl:template match="/">
-        <!-- scanning expression with posture striding -->
         <result>
-            <xsl:for-each select="doc/sf:deep-descent(section[1])/text()" >
-                <xsl:copy-of select="self::text()" />
-            </xsl:for-each>
+        <xsl:for-each select="doc//section//p/sf:ascent(.)">
+            <inverted-section name="{@index}" depth="{count(ancestor-or-self::section)}" />
+        </xsl:for-each>
         </result>
     </xsl:template>
     
-    <xsl:function name="sf:deep-descent" streamability="deep-descent" as="node()*">
+    <!-- returns overlapping ascending nodes -->
+    <xsl:function name="sf:ascent" streamability="ascent" as="node()*">
         <xsl:param name="node" as="node()"/>
-        <xsl:sequence select="$node//section//p" />
+        <xsl:sequence select="$node/ancestor-or-self::section" />
     </xsl:function>
 </xsl:stylesheet>
