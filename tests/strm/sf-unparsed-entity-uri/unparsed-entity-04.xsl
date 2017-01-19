@@ -4,15 +4,16 @@ xmlns:f="http://example.com/expression-1904" exclude-result-prefixes="f">
 
   <!-- PURPOSE test unparsed-entity-uri#2 function -->
 <?spec xslt#unparsed-entity-uri?>
+  <xsl:mode streamable="true"/>
   <xsl:template match="doc">
     <out>
-      <xsl:value-of select="f:f(.)"/>
+      <xsl:value-of select="f:f(snapshot(.))"/>
     </out>
   </xsl:template>
   
     <xsl:function name="f:f">
     <xsl:param name="doc"/>
-    <xsl:value-of select="ends-with(unparsed-entity-uri('hatch-pic', $doc), '/expr/grafix/OpenHatch.gif')"/>
+    <xsl:value-of select="ends-with(unparsed-entity-uri('hatch-pic', $doc), '/strm/grafix/OpenHatch.gif')"/>
    </xsl:function>         
  
  

@@ -9,9 +9,9 @@
     </xsl:variable>
     <out>
       <xsl:for-each select="$p">
-        <a><xsl:value-of select="ends-with(unparsed-entity-uri('hatch-pic'), '/expr/grafix/OpenHatch.gif')"/></a>
+        <a><xsl:value-of select="ends-with(unparsed-entity-uri('hatch-pic'), '/fn/grafix/OpenHatch.gif')"/></a>
         <b><xsl:value-of select="unparsed-entity-public-id('hatch-pic')"/></b>
-        <c><xsl:value-of select="ends-with(unparsed-entity-uri('watch-pic'), '/expr/grafix/OpenHatch.gif')"/></c>
+        <c><xsl:value-of select="ends-with(unparsed-entity-uri('watch-pic'), '/fn/grafix/OpenHatch.gif')"/></c>
         <d><xsl:value-of select="unparsed-entity-public-id('watch-pic')"/></d>
       </xsl:for-each>      
     </out>
