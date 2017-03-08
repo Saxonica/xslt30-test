@@ -319,6 +319,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -353,13 +354,12 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
       <dependencies>
          <spec value="XSLT30+"/>
-         <feature value="higher_order_functions"/>
-         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <stylesheet file="system-property-100.xsl"/>
@@ -388,6 +388,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -422,6 +423,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -456,6 +458,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -490,6 +493,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -524,6 +528,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -558,6 +563,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -592,6 +598,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -626,6 +633,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -665,6 +673,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -704,6 +713,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -743,6 +753,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -782,6 +793,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -821,6 +833,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -860,6 +873,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -899,6 +913,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -938,6 +953,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -977,6 +993,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1015,6 +1032,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1053,6 +1071,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1091,6 +1110,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1129,6 +1149,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1167,6 +1188,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1205,6 +1227,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1243,6 +1266,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1281,6 +1305,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1319,6 +1344,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1357,6 +1383,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1395,6 +1422,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1433,6 +1461,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1471,6 +1500,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1509,6 +1539,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1547,6 +1578,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1585,6 +1617,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1623,6 +1656,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1661,6 +1695,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1699,6 +1734,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1737,6 +1773,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1775,6 +1812,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1813,6 +1851,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1851,6 +1890,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1889,6 +1929,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1927,6 +1968,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -1965,6 +2007,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2003,6 +2046,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2037,6 +2081,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2071,6 +2116,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2105,6 +2151,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2144,6 +2191,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2183,6 +2231,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2222,6 +2271,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2260,6 +2310,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2298,6 +2349,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2336,6 +2388,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2374,6 +2427,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2412,6 +2466,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2450,6 +2505,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2488,6 +2544,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2526,6 +2583,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2564,6 +2622,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2598,6 +2657,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2632,6 +2692,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2666,6 +2727,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2705,6 +2767,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2744,6 +2807,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2783,6 +2847,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2821,6 +2886,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2859,6 +2925,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2897,6 +2964,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2935,6 +3003,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -2973,6 +3042,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3011,6 +3081,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3049,6 +3120,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3087,6 +3159,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3125,6 +3198,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3159,6 +3233,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3193,6 +3268,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3227,6 +3303,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3266,6 +3343,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3305,6 +3383,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3344,6 +3423,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3382,6 +3462,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3420,6 +3501,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3458,6 +3540,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3496,6 +3579,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3534,6 +3618,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3572,6 +3657,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3610,6 +3696,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3648,6 +3735,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3686,6 +3774,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3720,6 +3809,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3754,6 +3844,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3788,6 +3879,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3827,6 +3919,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3866,6 +3959,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3905,6 +3999,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3943,6 +4038,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -3981,6 +4077,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4019,6 +4116,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4057,6 +4155,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4095,6 +4194,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4133,6 +4233,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4171,6 +4272,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4209,6 +4311,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4247,6 +4350,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4281,6 +4385,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4315,6 +4420,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4349,6 +4455,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4388,6 +4495,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4427,6 +4535,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4466,6 +4575,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4504,6 +4614,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4542,6 +4653,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4580,6 +4692,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4618,6 +4731,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4656,6 +4770,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4694,6 +4809,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4732,6 +4848,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4770,6 +4887,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4808,6 +4926,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4842,6 +4961,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4876,6 +4996,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4910,6 +5031,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4949,6 +5071,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -4988,6 +5111,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5027,6 +5151,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5065,6 +5190,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5103,6 +5229,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5141,6 +5268,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5179,6 +5307,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5217,6 +5346,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5255,6 +5385,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5293,6 +5424,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5331,6 +5463,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5369,6 +5502,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5403,6 +5537,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5437,6 +5572,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5471,6 +5607,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5510,6 +5647,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5549,6 +5687,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5588,6 +5727,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5626,6 +5766,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5664,6 +5805,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5702,6 +5844,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5740,6 +5883,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5778,6 +5922,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5816,6 +5961,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5854,6 +6000,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5892,6 +6039,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5930,6 +6078,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5964,6 +6113,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -5998,6 +6148,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -6032,6 +6183,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -6071,6 +6223,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -6110,6 +6263,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -6149,6 +6303,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -6187,6 +6342,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -6225,6 +6381,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -6263,6 +6420,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -6301,6 +6459,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -6339,6 +6498,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -6377,6 +6537,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -6415,6 +6576,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -6453,6 +6615,7 @@
           See for a more detailed description of the parameters and how this test works, the file system-property-100.xsl
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <source uri="system-property-100-data.xml" file="system-property-100-data.xml" context="static-expression-context"/>
       </environment>
@@ -6496,6 +6659,7 @@
          the system properties xsl:product, xsl:vendor, xsl:vendor-url, which is 9, and each subtest numbered a-g.
       </description>
       <created by="Abel Braaksma" on="2015-09-30"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment>
          <resource file="_system-property-test-set.xml" uri="_system-property-test-set.xml"/>
       </environment>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <test-set xmlns="http://www.w3.org/2012/10/xslt-test-catalog" xmlns:xs="http://www.w3.org/2001/XMLSchema" name="xml-to-json">
    <description>xml-to-json() function</description>
    
@@ -41,9 +41,10 @@
       <keywords>simple-content fn:xml-to-json fn:json-to-xml json-null</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
-    <environment ref="xml-to-json-A"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
+      <environment ref="xml-to-json-A"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t001"/>
@@ -58,9 +59,10 @@
       <keywords>simple-content fn:xml-to-json fn:json-to-xml json-boolean</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
-    <environment ref="xml-to-json-A"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
+      <environment ref="xml-to-json-A"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t002"/>
@@ -75,9 +77,10 @@
       <keywords>simple-content fn:xml-to-json fn:json-to-xml json-boolean</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
-    <environment ref="xml-to-json-A"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
+      <environment ref="xml-to-json-A"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t003"/>
@@ -92,9 +95,10 @@
       <keywords>simple-content json-numeric fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
-    <environment ref="xml-to-json-A"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
+      <environment ref="xml-to-json-A"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t004"/>
@@ -109,9 +113,10 @@
       <keywords>simple-content json-string fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
-    <environment ref="xml-to-json-A"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
+      <environment ref="xml-to-json-A"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t005"/>
@@ -126,9 +131,10 @@
       <keywords>json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
-    <environment ref="xml-to-json-A"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
+      <environment ref="xml-to-json-A"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t006"/>
@@ -143,9 +149,10 @@
       <keywords>json-array fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
-    <environment ref="xml-to-json-A"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
+      <environment ref="xml-to-json-A"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t007"/>
@@ -160,9 +167,10 @@
       <keywords>json-array fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
-    <environment ref="xml-to-json-A"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
+      <environment ref="xml-to-json-A"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t008"/>
@@ -177,9 +185,10 @@
       <keywords>json-array json-boolean fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
-    <environment ref="xml-to-json-A"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
+      <environment ref="xml-to-json-A"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t009"/>
@@ -194,9 +203,10 @@
       <keywords>json-array json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
-    <environment ref="xml-to-json-A"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
+      <environment ref="xml-to-json-A"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t010"/>
@@ -211,9 +221,10 @@
       <keywords>json-map fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
-    <environment ref="xml-to-json-A"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
+      <environment ref="xml-to-json-A"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t011"/>
@@ -228,9 +239,10 @@
       <keywords>json-map fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
-    <environment ref="xml-to-json-A"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
+      <environment ref="xml-to-json-A"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t012"/>
@@ -245,9 +257,10 @@
       <keywords>json-map fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
-    <environment ref="xml-to-json-A"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
+      <environment ref="xml-to-json-A"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t013"/>
@@ -263,9 +276,10 @@
       <keywords>json-map complex-content fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
-    <environment ref="xml-to-json-A"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
+      <environment ref="xml-to-json-A"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t014"/>
@@ -280,9 +294,10 @@
       <description>Test of xml-to-json: empty array not the last member of an array</description>
       <keywords>json-array json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Debbie Lockett" on="2016-04-01"/>
-    <environment ref="xml-to-json-A"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
+      <environment ref="xml-to-json-A"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t015"/>
@@ -296,9 +311,10 @@
       <description>Test of xml-to-json: empty map not the last member of an array</description>
       <keywords>json-array json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Debbie Lockett" on="2016-04-01"/>
-    <environment ref="xml-to-json-A"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
+      <environment ref="xml-to-json-A"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t016"/>
@@ -312,9 +328,10 @@
       <description>Test of xml-to-json: empty map not the last value of a map</description>
       <keywords>json-map json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Debbie Lockett" on="2016-04-04"/>
-    <environment ref="xml-to-json-A"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
+      <environment ref="xml-to-json-A"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t017"/>
@@ -329,9 +346,10 @@
       <description>Test of xml-to-json: empty array not the last value of a map</description>
       <keywords>json-map json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Debbie Lockett" on="2016-04-04"/>
-    <environment ref="xml-to-json-A"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
+      <environment ref="xml-to-json-A"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t018"/>
@@ -347,9 +365,10 @@
       <keywords>simple-content fn:xml-to-json fn:json-to-xml json-null</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-A2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t001"/>
@@ -364,9 +383,10 @@
       <keywords>simple-content fn:xml-to-json fn:json-to-xml json-boolean</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-A2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t002"/>
@@ -381,9 +401,10 @@
       <keywords>simple-content fn:xml-to-json fn:json-to-xml json-boolean</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-A2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t003"/>
@@ -398,9 +419,10 @@
       <keywords>simple-content json-numeric fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-A2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t004"/>
@@ -415,9 +437,10 @@
       <keywords>simple-content json-string fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-A2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t005"/>
@@ -432,9 +455,10 @@
       <keywords>json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-A2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t006"/>
@@ -449,9 +473,10 @@
       <keywords>json-array fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-A2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t007"/>
@@ -466,9 +491,10 @@
       <keywords>json-array fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-A2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t008"/>
@@ -483,9 +509,10 @@
       <keywords>json-array json-boolean fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-A2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t009"/>
@@ -500,9 +527,10 @@
       <keywords>json-array json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-A2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t010"/>
@@ -517,9 +545,10 @@
       <keywords>json-map fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-A2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t011"/>
@@ -534,9 +563,10 @@
       <keywords>json-map fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-A2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t012"/>
@@ -551,9 +581,10 @@
       <keywords>json-map fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-A2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t013"/>
@@ -569,9 +600,10 @@
       <keywords>json-map complex-content fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-A2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t014"/>
@@ -586,9 +618,10 @@
       <description>Test of xml-to-json: empty array not the last member of an array</description>
       <keywords>json-array json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Debbie Lockett" on="2016-04-01"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-A2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t015"/>
@@ -602,9 +635,10 @@
       <description>Test of xml-to-json: empty map not the last member of an array</description>
       <keywords>json-array json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Debbie Lockett" on="2016-04-01"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-A2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t016"/>
@@ -618,9 +652,10 @@
       <description>Test of xml-to-json: empty map not the last value of a map</description>
       <keywords>json-map json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Debbie Lockett" on="2016-04-04"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-A2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t017"/>
@@ -635,9 +670,10 @@
       <description>Test of xml-to-json: empty array not the last value of a map</description>
       <keywords>json-map json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Debbie Lockett" on="2016-04-04"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-A2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t018"/>
@@ -654,9 +690,10 @@
       <keywords>simple-content json-null json-indented fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t001"/>
@@ -672,9 +709,10 @@
       <keywords>simple-content json-boolean json-indented fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t002"/>
@@ -690,9 +728,10 @@
       <keywords>simple-content json-boolean json-indented fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t003"/>
@@ -708,9 +747,10 @@
       <keywords>simple-content json-numeric json-indented fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t004"/>
@@ -726,9 +766,10 @@
       <keywords>json-indented simple-content json-string fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t005"/>
@@ -744,9 +785,10 @@
       <keywords>json-string json-indented simple-content fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t006"/>
@@ -762,9 +804,10 @@
       <keywords>json-array simple-content json-indented fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t007"/>
@@ -780,9 +823,10 @@
       <keywords>json-indented simple-content json-array fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t008"/>
@@ -798,9 +842,10 @@
       <keywords>simple-content json-array json-boolean json-indented fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t009"/>
@@ -816,9 +861,10 @@
       <keywords>json-array json-string json-indented fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t010"/>
@@ -834,9 +880,10 @@
       <keywords>json-map json-indented fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t011"/>
@@ -852,9 +899,10 @@
       <keywords>json-map json-indented simple-content fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t012"/>
@@ -870,9 +918,10 @@
       <keywords>simple-content json-indented json-map fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t013"/>
@@ -889,9 +938,10 @@
       <keywords>json-map json-indented complex-content fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t014"/>
@@ -907,9 +957,10 @@
       <description>Test of xml-to-json: empty array not the last member of an array</description>
       <keywords>json-array json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Debbie Lockett" on="2016-04-01"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t015"/>
@@ -924,9 +975,10 @@
       <description>Test of xml-to-json: empty map not the last member of an array</description>
       <keywords>json-array json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Debbie Lockett" on="2016-04-01"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t016"/>
@@ -941,9 +993,10 @@
       <description>Test of xml-to-json: empty map not the last value of a map</description>
       <keywords>json-map json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Debbie Lockett" on="2016-04-04"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t017"/>
@@ -959,9 +1012,10 @@
       <description>Test of xml-to-json: empty array not the last value of a map</description>
       <keywords>json-map json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Debbie Lockett" on="2016-04-04"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t018"/>
@@ -978,9 +1032,10 @@
       <keywords>simple-content json-null json-indented fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t001"/>
@@ -996,9 +1051,10 @@
       <keywords>simple-content json-boolean json-indented fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t002"/>
@@ -1014,9 +1070,10 @@
       <keywords>simple-content json-boolean json-indented fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t003"/>
@@ -1032,9 +1089,10 @@
       <keywords>simple-content json-numeric json-indented fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t004"/>
@@ -1050,9 +1108,10 @@
       <keywords>json-indented simple-content json-string fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t005"/>
@@ -1068,9 +1127,10 @@
       <keywords>json-string json-indented simple-content fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t006"/>
@@ -1086,9 +1146,10 @@
       <keywords>json-array simple-content json-indented fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t007"/>
@@ -1104,9 +1165,10 @@
       <keywords>json-indented simple-content json-array fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t008"/>
@@ -1122,9 +1184,10 @@
       <keywords>simple-content json-array json-boolean json-indented fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t009"/>
@@ -1140,9 +1203,10 @@
       <keywords>json-array json-string json-indented fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t010"/>
@@ -1158,9 +1222,10 @@
       <keywords>json-map json-indented fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t011"/>
@@ -1176,9 +1241,10 @@
       <keywords>json-map json-indented simple-content fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t012"/>
@@ -1194,9 +1260,10 @@
       <keywords>simple-content json-indented json-map fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t013"/>
@@ -1213,9 +1280,10 @@
       <keywords>json-map json-indented complex-content fn:xml-to-json fn:json-to-xml</keywords>
       <created by="Michael Kay" on="2014-07-19"/>
       <modified by="Michael Kay" on="2015-06-23" change="Namespace change resulting from bug 28174"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t014"/>
@@ -1231,9 +1299,10 @@
       <description>Test of xml-to-json: empty array not the last member of an array</description>
       <keywords>json-array json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Debbie Lockett" on="2016-04-01"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t015"/>
@@ -1248,9 +1317,10 @@
       <description>Test of xml-to-json: empty map not the last member of an array</description>
       <keywords>json-array json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Debbie Lockett" on="2016-04-01"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t016"/>
@@ -1265,9 +1335,10 @@
       <description>Test of xml-to-json: empty map not the last value of a map</description>
       <keywords>json-map json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Debbie Lockett" on="2016-04-04"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t017"/>
@@ -1283,9 +1354,10 @@
       <description>Test of xml-to-json: empty array not the last value of a map</description>
       <keywords>json-map json-string fn:xml-to-json fn:json-to-xml simple-content</keywords>
       <created by="Debbie Lockett" on="2016-04-04"/>
+      <modified by="Debbie Lockett" on="2017-02-23" change="add HOF dependency"/>
       <environment ref="xml-to-json-B2"/>
       <dependencies>
-          <feature value="higher_order_functions"/>
+         <feature value="higher_order_functions"/>
       </dependencies>
       <test>
          <initial-template name="t018"/>
