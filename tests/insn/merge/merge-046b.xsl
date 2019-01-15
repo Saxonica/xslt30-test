@@ -4,9 +4,9 @@
     exclude-result-prefixes="xs"
     version="3.0">
     
-    <!-- testing invalid names: either XTSE0020 or XTDE3490 -->
+    <!-- testing invalid name: XTDE3490 -->
     <xsl:output method="xml" indent="no"/>
-    <xsl:template name="xsl:initial-template">
+    <xsl:template name="xsl:initial-template" match="/">
         <events>
             <xsl:merge>
                 <xsl:merge-source 
@@ -15,14 +15,15 @@
                         <xsl:merge-key select="xs:dateTime(@timestamp)"/>
                 </xsl:merge-source>
                 <xsl:merge-source 
-                	name="...."
+                	name="two"
                 	select="doc('log-file-2.xml')/log/day/record">
                         <xsl:merge-key select="dateTime(../@date, time)"/>
                 </xsl:merge-source>
                 <xsl:merge-action>
                     <group at="{current-merge-key()}">
                         <one><xsl:copy-of select="current-merge-group('one')" /></one>
-                        <two><xsl:copy-of select="current-merge-group('....')" /></two> 
+                        <two><xsl:copy-of select="current-merge-group('two')" /></two> 
+                        <error><xsl:copy-of select="current-merge-group('....')" /></error> 
                     </group>
                 </xsl:merge-action>
             </xsl:merge>

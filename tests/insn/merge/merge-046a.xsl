@@ -4,7 +4,7 @@
     exclude-result-prefixes="xs"
     version="3.0">
     
-    <!-- testing invalid names: either XTSE0020 or XTDE3490 -->
+    <!-- testing invalid name: XTSE0020 -->
     <xsl:output method="xml" indent="no"/>
     <xsl:template name="xsl:initial-template">
         <events>
@@ -22,7 +22,6 @@
                 <xsl:merge-action>
                     <group at="{current-merge-key()}">
                         <one><xsl:copy-of select="current-merge-group('one')" /></one>
-                        <two><xsl:copy-of select="current-merge-group('....')" /></two> 
                     </group>
                 </xsl:merge-action>
             </xsl:merge>
