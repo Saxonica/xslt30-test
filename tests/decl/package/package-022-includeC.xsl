@@ -9,10 +9,13 @@
     
     <xsl:use-package name="urn:use-me" package-version="*"  >
         <xsl:accept component="function" names="pkg:function1" visibility="hidden" />
+        <xsl:accept component="function" names="pkg:function2" visibility="hidden" />
     </xsl:use-package>
     
     <xsl:use-package name="urn:use-me" package-version="*"  >
         <xsl:accept component="function" names="pkg:function1" visibility="public" />
+        <!-- hide the rest (that is, pkg:function2), otherwise conflict with package-022-includeB.xsl -->
+        <xsl:accept component="function" names="*" visibility="hidden" />
     </xsl:use-package>
     
     <xsl:template match="second-child">

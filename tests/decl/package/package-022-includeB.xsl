@@ -7,9 +7,10 @@
     <!-- deny here, accept in the next xsl:include -->    
     <xsl:use-package name="urn:use-me" package-version="*"  >
         <xsl:accept component="function" names="pkg:function1" visibility="hidden" />
+        <!-- deliberately forgetting to hide pkg:function2, see bug #30389 --> 
     </xsl:use-package>
 
     <!-- cause two xsl:use-package on the same stylesheet level, this is allowed -->
-    <xsl:include href="package-020-includeC.xsl"/>
+    <xsl:include href="package-022-includeC.xsl"/>
     
 </xsl:stylesheet>
