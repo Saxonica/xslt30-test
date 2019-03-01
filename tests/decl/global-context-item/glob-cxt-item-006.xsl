@@ -10,7 +10,7 @@
     
     <xsl:variable name="g" select="23"/>
 
-    <xsl:template name="xsl:initial-template">
+    <xsl:template name="xsl:initial-template" visibility="public">
       <out>
          <xsl:copy-of select="$g"/>
       </out>

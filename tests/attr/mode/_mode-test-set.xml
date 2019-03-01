@@ -1815,10 +1815,10 @@
    </test-case>
    
    <test-case name="mode-1436">
-      <description>Test xsl:mode on-no-match=deep-skip</description>
+      <description>Test xsl:mode on-no-match=deep-skip, deep skip should not skip document node</description>
       <keywords>xsl:mode on-no-match-attribute deep-skip document-node</keywords>
       <created by="Michael Kay" on="2013-06-15"/>
-      <modified by="Michael Kay" on="2018-01-31" change="see bug 30220"/>
+      <modified by="Michael Kay" on="2018-01-31" change="see bug #30220, bug #30219, deep-skip does not skip document nodes anymore"/>
       <environment ref="mode-14"/>
       <dependencies>
          <spec value="XSLT30+"/>
@@ -1833,10 +1833,10 @@
    </test-case>
    
    <test-case name="mode-1437">
-      <description>Test xsl:mode on-no-match=deep-skip; streaming</description>
+      <description>Test xsl:mode on-no-match=deep-skip; streaming, deep skip should not skip document node</description>
       <keywords>xsl:mode on-no-match-attribute streamable deep-skip document-node</keywords>
       <created by="Michael Kay" on="2013-06-15"/>
-      <modified by="Michael Kay" on="2015-07-02" change="effect of deep-skip on document nodes has changed"/>
+      <modified by="Michael Kay" on="2015-07-02" change="bug #30220, bug #30219, effect of deep-skip on document nodes has changed"/>
       <environment ref="mode-14s"/>
       <dependencies>
          <spec value="XSLT30+"/>
@@ -1851,9 +1851,10 @@
    </test-case>
    
    <test-case name="mode-1437a">
-      <description>Non-streaming version of mode-1437</description>
+      <description>Non-streaming version of mode-1437, deep skip should not skip document node</description>
       <keywords>xsl:mode on-no-match-attribute deep-skip document-node</keywords>
       <created by="Michael Kay" on="2017-11-02"/>
+      <modified by="Michael Kay" on="2015-07-02" change="bug #30220, bug #30219, effect of deep-skip on document nodes has changed"/>
       <environment ref="mode-14"/>
       <dependencies>
          <spec value="XSLT30+"/>
@@ -2748,8 +2749,9 @@
    </test-case>
    
    <test-case name="mode-1705a">
-      <description>Test attribute default-mode on xsl:package element, error scenario</description>
+      <description>Test attribute default-mode on xsl:package element, pointing to an implicitly private mode, this is allowed</description>
       <created by="Abel Braaksma" on="2016-07-07"/>
+      <modified by="Abel Braaksma" on="2019-02-25" change="Fix, see bug #30144, default-mode is always eligible. Was: expect XTDE0045, fix: no error (updated descr to reflect this, added mode-1705b for the error variant)"/>
       <environment ref="mode-01"/>
       <dependencies>
          <spec value="XSLT30+"/>
@@ -2759,7 +2761,23 @@
          <initial-mode name="a"/>
       </test>
       <result>
-         <error code="XTDE0045"/>
+         <assert>/ok</assert>
+      </result>
+   </test-case>
+   
+   <test-case name="mode-1705b">
+      <description>Test attribute default-mode on xsl:package element, error scenario, initial mode is not the default mode and is private</description>
+      <created by="Abel Braaksma" on="2019-02-25"/>
+      <environment ref="mode-01"/>
+      <dependencies>
+         <spec value="XSLT30+"/>
+      </dependencies>
+      <test>
+         <package file="mode-1705b.xsl" role="principal"/>
+         <initial-mode name="private-mode"/>
+      </test>
+      <result>
+         <error code="XTDE0045" />
       </result>
    </test-case>
    
@@ -2886,6 +2904,22 @@
       </test>
       <result>
          <assert-xml><![CDATA[<out>no-mode:a-text</out>]]></assert-xml>
+      </result>
+   </test-case>
+   
+   <test-case name="mode-1714err">
+      <description>Error scenario: test attribute default-mode (named mode) on xsl:template element inside package: not eligible as initial mode</description>
+      <created by="Debbie Lockett" on="2015-09-07"/>
+      <environment ref="mode-01"/>
+      <dependencies>
+         <spec value="XSLT30+"/>
+      </dependencies>
+      <test>
+         <package file="mode-1714err.xsl" role="principal"/>
+         <initial-mode name="a"/>
+      </test>
+      <result>
+         <error code="XTDE0045" />
       </result>
    </test-case>
    
